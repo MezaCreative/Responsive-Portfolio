@@ -1,0 +1,15 @@
+/* all of the body*/
+  body {
+    background-color: darkgrey;
+  }
+  /*heading color*/
+  h1 {
+    color: darkgoldenrod;
+  }
+  /* container background color */
+  .container {
+    background-color: white;
+  }
+  form {
+    width: 500px; margin: auto;
+  }
