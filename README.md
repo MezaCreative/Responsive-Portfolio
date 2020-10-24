@@ -10,9 +10,9 @@ Personal Portfolio creating with Bootstrap. 3 pages including  "about me", "port
 ## Usage
 
 
-![Portfolio Image](https://github.com/Meza-creative/Responsive-Portfolio/blob/main/Assets/Screenshot.png)
+![Portfolio Image](https://github.com/Mezacreative/Responsive-Portfolio/blob/main/Assets/Screenshot.png)
 
-Preview of the site is available here [Esteban Portfolio](https://meza-creative.github.io/Responsive-Portfolio/).
+Preview of the site is available here [Esteban Portfolio](https://mezacreative.github.io/Responsive-Portfolio/).
 
 
 ## Installation
