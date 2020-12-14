@@ -10,6 +10,10 @@
   .container {
     background-color: white;
   }
+  .center {
+    margin:auto;
+  }
   form {
     width: 500px; margin: auto;
   }
+  .send-image img { height: 100%; width: 50%; display:block;}
