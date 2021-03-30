@@ -1,6 +1,6 @@
 /* all of the body*/
   body {
-    background-color: darkgrey;
+    background-color: rgb(70, 70, 70);
   }
   /*heading color*/
   h1 {
@@ -17,8 +17,8 @@
     width: 500px; margin: auto;
   }
   .navbar{
-    background: -webkit-linear-gradient(59deg, #98a0a5, #878a8b);
-    background: linear-gradient(59deg, #3d4142, #555e64);
+    background: -webkit-linear-gradient(59deg,rgb(70, 70, 70), rgb(73, 73, 73));
+    background: linear-gradient(59deg, rgb(70, 70, 70),rgb(73, 73, 73));
   }
   footer {
     background: darkgrey;
@@ -36,11 +36,50 @@
     transition-duration: 0.2s;
   }
   
+  .card{
+    overflow:hidden;
+  }
+  .tila {
+    object-fit: cover;
+    height: 100%;
+    width:100%
+  }
+  .over-text{
+    z-index:100;
+    position:absolute;
+    color:rgb(238, 238, 238);
+    font-size:60px;
+    font-weight:bold;
+    left: 100 px;
+    top: 50px;
+    transform:translateX(-100%);
+    line-height: 175px;
+  }
+  .under-text{
+    z-index:100;
+    position:absolute;
+    color:rgb(238, 238, 238);
+    font-size:60px;
+    font-weight:bold;
+    left: 100 px;
+    bottom: 50px;
+    line-height: 100px; 
+    transform:translateX(-100%);
+  }
+  .contact-text{
+    color:rgb(238, 238, 238);
+  }
+  .body-text{
+    color:rgb(238, 238, 238);
+  }
   footer a:hover {
     color: #FA944B;
     text-decoration: none;
   }
-  
+  .card-img-top{
+    max-width: 100%;
+    max-height:100%;
+  }
   .copy {
     font-size: 12px;
     padding: 10px;
@@ -82,12 +121,16 @@
   .social-network a.icoTwitter:hover{
     background-color: #55ACEE;
   }
+  .social-network a.icoGithub:hover{
+    background-color: #d8a9f3;
+  }
   .social-network a.icoInstagram:hover{
     background: #125688;
   }
   .social-network a.icoFacebook:hover i,
   .social-network a.icoLinkedin:hover i,
   .social-network a.icoTwitter:hover i,
+  .social-network a.icoGithub:hover i,
   .social-network a.icoInstagram:hover i {
     color: #fff;
   }
