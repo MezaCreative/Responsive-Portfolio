@@ -38,34 +38,36 @@
   
   .card{
     overflow:hidden;
+  
   }
+
+  .section-background {
+  background-color: transparent; /* Apply the same for this class */
+}
+
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 75%;
+    height: 75%;
+  }
+
+  
   .tila {
     object-fit: cover;
-    height: 100%;
-    width:100%
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; /* Optional: Rounded corners */
+    width:75%
   }
-  .over-text{
-    z-index:100;
-    position:absolute;
-    color:rgb(238, 238, 238);
-    font-size:60px;
-    font-weight:bold;
-    left: 100 px;
-    top: 50px;
-    transform:translateX(-100%);
-    line-height: 175px;
-  }
-  .under-text{
-    z-index:100;
-    position:absolute;
-    color:rgb(238, 238, 238);
-    font-size:60px;
-    font-weight:bold;
-    left: 100 px;
-    bottom: 50px;
-    line-height: 100px; 
-    transform:translateX(-100%);
-  }
+
+
   .contact-text{
     color:rgb(238, 238, 238);
   }
